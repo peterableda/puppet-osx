@@ -57,6 +57,7 @@ Just `include` any of these in your manifest.
 * `osx::finder::show_warning_before_changing_an_extension`
 * `osx::finder::show_all_filename_extensions`
 * `osx::finder::no_file_extension_warnings`
+* `osx::finder::allow_quitting`
 
 ### Universal Access Settings
 
