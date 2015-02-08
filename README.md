@@ -119,6 +119,17 @@ class { 'osx::global::natural_mouse_scrolling':
 }
 ```
 
+`osx::global::trackpad_tracking_speed` - the speed of the trackpad
+
+```puppet
+# Set the default value (3)
+include osx::global::trackpad_tracking_speed
+
+# ... or set your own
+class { 'osx::global::trackpad_tracking_speed':
+  delay => 2.5
+}
+```
 
 `osx::universal_access::cursor_size` - the amount the cursor will be zoomed
 
